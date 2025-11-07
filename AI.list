@@ -1,3 +1,6 @@
+# UPDATED: 2025-11-07
+# TOTAL: 146 Rules (121 base + 25 new/upgraded)
+
 # >> OpenAI / ChatGPT
 HOST,browser-intake-datadoghq.com,AI
 HOST,chat.openai.com.cdn.cloudflare.net,AI
@@ -37,11 +40,13 @@ IP-ASN,20473,AI
 # For broader CDN coverage
 HOST-SUFFIX,azureedge.net,AI
 HOST-SUFFIX,imgix.net,AI
+# New
+HOST-SUFFIX,sora.com,AI
+HOST-SUFFIX,chat.com,AI
 
 # >> Google AI / Gemini & Bard
 HOST,ai.google.dev,AI
-HOST,alkalimakersuite-pa.clients6.google.com,AI
-HOST,makersuite.google.com,AI
+HOST,alkalicore-pa.clients6.google.com,AI
 HOST-KEYWORD,colab,AI
 HOST-KEYWORD,developerprofiles,AI
 HOST-KEYWORD,generativelanguage,AI
@@ -53,6 +58,7 @@ HOST-SUFFIX,generativeai.google,AI
 HOST-SUFFIX,proactivebackend-pa.googleapis.com,AI
 HOST-SUFFIX,apis.google.com,AI
 HOST-SUFFIX,aistudio.google.com,AI
+HOST-SUFFIX,makersuite.google.com,AI
 # Added from other sources for wider compatibility
 HOST-SUFFIX,clients4.google.com,AI
 HOST-SUFFIX,clients6.google.com,AI
@@ -61,6 +67,14 @@ HOST-SUFFIX,googleapis.com,AI
 HOST-SUFFIX,labs.google,AI
 HOST-SUFFIX,learning.google.com,AI
 HOST-SUFFIX,notebooklm.google,AI
+# New Google API endpoints
+HOST,robinfrontend-pa.googleapis.com,AI
+HOST,aisandbox-pa.googleapis.com,AI
+HOST,aida.googleapis.com,AI
+HOST,jules.google.com,AI
+HOST-SUFFIX,generativelanguage.googleapis.com,AI
+HOST-SUFFIX,cloudcode-pa.googleapis.com,AI
+HOST-SUFFIX,geller-pa.googleapis.com,AI
 
 # >> Microsoft Copilot / Bing AI
 HOST,api.msn.com,AI
@@ -80,6 +94,11 @@ HOST-SUFFIX,api.microsoftapp.net,AI
 HOST-SUFFIX,bing-shopping.microsoft-falcon.io,AI
 HOST-SUFFIX,bing.com,AI
 HOST-SUFFIX,edgeservices.bing.com,AI
+
+# >> GitHub Copilot
+HOST,api.github.com,AI
+HOST-SUFFIX,githubcopilot.com,AI
+HOST-SUFFIX,copilot-proxy.githubusercontent.com,AI
 
 # >> Anthropic / Claude
 HOST,cdn.usefathom.com,AI
@@ -101,6 +120,7 @@ HOST-SUFFIX,groq.com,AI
 
 # >> Stability AI
 HOST-SUFFIX,stability.ai,AI
+HOST-SUFFIX,clipdrop.co,AI
 
 # >> Hugging Face
 HOST-SUFFIX,huggingface.co,AI
@@ -120,6 +140,10 @@ HOST-SUFFIX,grok.com,AI
 # >> Apple AI
 HOST-SUFFIX,apple-relay.apple.com,AI
 HOST-SUFFIX,apple-relay.cloudflare.com,AI
+# New Apple endpoints
+HOST,apple-relay.fastly-edge.com,AI
+HOST,guzzoni.apple.com,AI
+HOST-SUFFIX,smoot.apple.com,AI
 
 # >> Meta AI
 HOST-SUFFIX,meta.ai,AI
@@ -127,9 +151,19 @@ HOST-SUFFIX,meta.com,AI
 
 # >> JetBrains AI
 HOST-SUFFIX,grazie.ai,AI
+HOST,api.jetbrains.ai,AI
 
 # >> Cursor
 HOST-SUFFIX,cursor.sh,AI
 
 # >> Dify AI
 HOST-SUFFIX,dify.ai,AI
+
+# >> Other AI Services
+HOST-SUFFIX,openart.ai,AI
+HOST-SUFFIX,jasper.ai,AI
+
+# >> AI Infrastructure
+HOST,gateway.ai.cloudflare.com,AI
+HOST,cp4.cloudflare.com,AI
+HOST,cp2.cloudflare.com,AI
