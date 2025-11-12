@@ -136,14 +136,6 @@ HOST-SUFFIX,poecdn.net,AI
 HOST-SUFFIX,x.ai,AI
 HOST-SUFFIX,grok.com,AI
 
-# >> Apple AI
-HOST-SUFFIX,apple-relay.apple.com,AI
-HOST-SUFFIX,apple-relay.cloudflare.com,AI
-# New Apple endpoints
-HOST,apple-relay.fastly-edge.com,AI
-HOST,guzzoni.apple.com,AI
-HOST-SUFFIX,smoot.apple.com,AI
-
 # >> Meta AI
 HOST-SUFFIX,meta.ai,AI
 HOST-SUFFIX,meta.com,AI
