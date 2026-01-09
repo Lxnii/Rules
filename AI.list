@@ -46,6 +46,10 @@ HOST-SUFFIX,chat.com,AI
 # >> Google AI / Gemini & Bard
 HOST,ai.google.dev,AI
 HOST,alkalicore-pa.clients6.google.com,AI
+HOST,robinfrontend-pa.googleapis.com,AI
+HOST,aisandbox-pa.googleapis.com,AI
+HOST,aida.googleapis.com,AI
+HOST,jules.google.com,AI
 HOST-KEYWORD,colab,AI
 HOST-KEYWORD,developerprofiles,AI
 HOST-KEYWORD,generativelanguage,AI
@@ -58,7 +62,6 @@ HOST-SUFFIX,proactivebackend-pa.googleapis.com,AI
 HOST-SUFFIX,apis.google.com,AI
 HOST-SUFFIX,aistudio.google.com,AI
 HOST-SUFFIX,makersuite.google.com,AI
-# Added from other sources for wider compatibility
 HOST-SUFFIX,clients4.google.com,AI
 HOST-SUFFIX,clients6.google.com,AI
 HOST-SUFFIX,googleusercontent.com,AI
@@ -66,14 +69,14 @@ HOST-SUFFIX,googleapis.com,AI
 HOST-SUFFIX,labs.google,AI
 HOST-SUFFIX,learning.google.com,AI
 HOST-SUFFIX,notebooklm.google,AI
-# New Google API endpoints
-HOST,robinfrontend-pa.googleapis.com,AI
-HOST,aisandbox-pa.googleapis.com,AI
-HOST,aida.googleapis.com,AI
-HOST,jules.google.com,AI
 HOST-SUFFIX,generativelanguage.googleapis.com,AI
 HOST-SUFFIX,cloudcode-pa.googleapis.com,AI
 HOST-SUFFIX,geller-pa.googleapis.com,AI
+HOST-SUFFIX,antigravity.google,AI
+HOST-SUFFIX,antigravity-unleash.goog,AI
+HOST-SUFFIX,gemini.google,AI
+HOST-SUFFIX,generativeai.google,AI
+HOST-SUFFIX,jules.google,AI
 
 # >> Microsoft Copilot / Bing AI
 HOST,api.msn.com,AI
@@ -150,9 +153,23 @@ HOST-SUFFIX,cursor.sh,AI
 # >> Dify AI
 HOST-SUFFIX,dify.ai,AI
 
+# >> Trae AI
+HOST,trae-api-sg.mchost.guru,AI
+HOST-SUFFIX,trae.ai, AI
+
+# >> OpenRouter
+HOST-SUFFIX,openrouter.ai,AI
+
 # >> Other AI Services
 HOST-SUFFIX,openart.ai,AI
 HOST-SUFFIX,jasper.ai,AI
+HOST-SUFFIX,together.ai,AI
+HOST-SUFFIX,fireworks.ai,AI
+HOST-SUFFIX,hyperbolic.ai,AI
+HOST,api.hyperbolic.xyz,AI
+HOST-SUFFIX,jina.ai,AI
+HOST-SUFFIX,voyageai.com,AI
+HOST-SUFFIX,tokenflux.ai,AI
 
 # >> AI Infrastructure
 HOST,gateway.ai.cloudflare.com,AI
