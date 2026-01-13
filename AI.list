@@ -1,4 +1,4 @@
-# UPDATED: 2025-11-07
+# UPDATED: 2026-01-13
 
 # >> OpenAI / ChatGPT
 HOST,browser-intake-datadoghq.com,AI
@@ -8,9 +8,10 @@ HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,AI
 HOST,openaicomproductionae4b.blob.core.windows.net,AI
 HOST,production-openaicom-storage.azureedge.net,AI
 HOST,static.cloudflareinsights.com,AI
+HOST,auth0.openai.com,AI # 666
+HOST,api.statsig.com,AI # 666
 HOST-SUFFIX,ai.com,AI
 HOST-SUFFIX,algolia.net,AI
-HOST-SUFFIX,api.statsig.com,AI
 HOST-SUFFIX,auth0.com,AI
 HOST-SUFFIX,chatgpt.com,AI
 HOST-SUFFIX,chatgpt.livekit.cloud,AI
@@ -24,6 +25,7 @@ HOST-SUFFIX,intercomcdn.com,AI
 HOST-SUFFIX,launchdarkly.com,AI
 HOST-SUFFIX,oaistatic.com,AI
 HOST-SUFFIX,oaiusercontent.com,AI
+HOST-SUFFIX,oaifree.com,AI # 666
 HOST-SUFFIX,observeit.net,AI
 HOST-SUFFIX,openai.com,AI
 HOST-SUFFIX,openaiapi-site.azureedge.net,AI
@@ -32,6 +34,8 @@ HOST-SUFFIX,segment.io,AI
 HOST-SUFFIX,sentry.io,AI
 HOST-SUFFIX,stripe.com,AI
 HOST-SUFFIX,turn.livekit.cloud,AI
+HOST-SUFFIX,chat.com,AI
+HOST-SUFFIX,sora.com,AI
 HOST-KEYWORD,openai,AI
 IP-CIDR,24.199.123.28/32,AI
 IP-CIDR,64.23.132.171/32,AI
@@ -39,17 +43,17 @@ IP-ASN,20473,AI
 # For broader CDN coverage
 HOST-SUFFIX,azureedge.net,AI
 HOST-SUFFIX,imgix.net,AI
-# New
-HOST-SUFFIX,sora.com,AI
-HOST-SUFFIX,chat.com,AI
 
 # >> Google AI / Gemini & Bard
 HOST,ai.google.dev,AI
 HOST,alkalicore-pa.clients6.google.com,AI
+HOST,alkalimakersuite-pa.clients6.google.com,AI # 666
 HOST,robinfrontend-pa.googleapis.com,AI
 HOST,aisandbox-pa.googleapis.com,AI
 HOST,aida.googleapis.com,AI
 HOST,jules.google.com,AI
+HOST,proactivebackend-pa.googleapis.com,AI
+HOST,webchannel-alkalimakersuite-pa.clients6.google.com,AI # 666
 HOST-KEYWORD,colab,AI
 HOST-KEYWORD,developerprofiles,AI
 HOST-KEYWORD,generativelanguage,AI
@@ -58,7 +62,6 @@ HOST-SUFFIX,deepmind.com,AI
 HOST-SUFFIX,deepmind.google,AI
 HOST-SUFFIX,gemini.google.com,AI
 HOST-SUFFIX,generativeai.google,AI
-HOST-SUFFIX,proactivebackend-pa.googleapis.com,AI
 HOST-SUFFIX,apis.google.com,AI
 HOST-SUFFIX,aistudio.google.com,AI
 HOST-SUFFIX,makersuite.google.com,AI
@@ -69,14 +72,25 @@ HOST-SUFFIX,googleapis.com,AI
 HOST-SUFFIX,labs.google,AI
 HOST-SUFFIX,learning.google.com,AI
 HOST-SUFFIX,notebooklm.google,AI
+HOST-SUFFIX,notebooklm.google.com,AI # 666
 HOST-SUFFIX,generativelanguage.googleapis.com,AI
 HOST-SUFFIX,cloudcode-pa.googleapis.com,AI
 HOST-SUFFIX,geller-pa.googleapis.com,AI
 HOST-SUFFIX,antigravity.google,AI
 HOST-SUFFIX,antigravity-unleash.goog,AI
 HOST-SUFFIX,gemini.google,AI
-HOST-SUFFIX,generativeai.google,AI
 HOST-SUFFIX,jules.google,AI
+# Gemini App & Mobile
+HOST-SUFFIX,opal.google,AI # 666
+HOST-SUFFIX,opal.google.com,AI # 666
+
+# >> Apple Intelligence (New)
+HOST,guzzoni.apple.com,AI # 666
+HOST,gspe1-ssl.ls.apple.com,AI # 666
+HOST,smoot.apple.com,AI # 666
+HOST-SUFFIX,apple-relay.apple.com,AI # 666
+HOST-SUFFIX,apple-relay.cloudflare.com,AI # 666
+HOST-SUFFIX,apple-relay.fastly-edge.com,AI # 666
 
 # >> Microsoft Copilot / Bing AI
 HOST,api.msn.com,AI
@@ -96,17 +110,22 @@ HOST-SUFFIX,api.microsoftapp.net,AI
 HOST-SUFFIX,bing-shopping.microsoft-falcon.io,AI
 HOST-SUFFIX,bing.com,AI
 HOST-SUFFIX,edgeservices.bing.com,AI
+HOST-SUFFIX,microsoft-copilot.com,AI # 666
 
 # >> GitHub Copilot
 HOST,api.github.com,AI
 HOST-SUFFIX,githubcopilot.com,AI
 HOST-SUFFIX,copilot-proxy.githubusercontent.com,AI
+HOST-SUFFIX,cocopilot.org,AI # 666
+HOST-SUFFIX,githubnext.com,AI # 666
 
 # >> Anthropic / Claude
 HOST,cdn.usefathom.com,AI
 HOST-SUFFIX,anthropic.com,AI
 HOST-SUFFIX,claude.ai,AI
 HOST-SUFFIX,claudeusercontent.com,AI
+HOST-SUFFIX,claudemcpclient.com,AI # 666
+HOST-SUFFIX,claude.com,AI # 666
 
 # >> Perplexity AI
 HOST,pplx-res.cloudinary.com,AI
@@ -123,13 +142,17 @@ HOST-SUFFIX,groq.com,AI
 # >> Stability AI
 HOST-SUFFIX,stability.ai,AI
 HOST-SUFFIX,clipdrop.co,AI
+HOST-SUFFIX,stablediffusionweb.com,AI # 666
 
 # >> Hugging Face
 HOST-SUFFIX,huggingface.co,AI
 HOST-SUFFIX,huggingface.cloud,AI
+HOST-SUFFIX,hf.co,AI # 666
+HOST-SUFFIX,hf.space,AI # 666
 
 # >> Midjourney
 HOST-SUFFIX,midjourney.com,AI
+HOST-SUFFIX,mj.run,AI # 666
 
 # >> Poe
 HOST-SUFFIX,poe.com,AI
@@ -138,24 +161,47 @@ HOST-SUFFIX,poecdn.net,AI
 # >> xAI / Grok
 HOST-SUFFIX,x.ai,AI
 HOST-SUFFIX,grok.com,AI
+HOST-SUFFIX,grok.x.com,AI # 666
 
 # >> Meta AI
 HOST-SUFFIX,meta.ai,AI
 HOST-SUFFIX,meta.com,AI
+HOST-SUFFIX,imagine.meta.com,AI # 666
 
 # >> JetBrains AI
 HOST-SUFFIX,grazie.ai,AI
 HOST,api.jetbrains.ai,AI
 
-# >> Cursor
+# >> Trae & ByteDance AI (Expanded)
+# Trae, MarsCode, Coze, Cici, Doubao Overseas
+HOST,trae-api-sg.mchost.guru,AI
+HOST-SUFFIX,trae.ai,AI
+HOST-SUFFIX,marscode.com,AI # 666
+HOST-SUFFIX,api.marscode.com,AI # 666
+HOST-SUFFIX,lf-cdn.marscode.com,AI # 666
+HOST-SUFFIX,mchost.guru,AI # 666
+HOST-SUFFIX,coze.com,AI # 666
+HOST-SUFFIX,ciciai.com,AI # 666
+HOST-SUFFIX,ciciaicdn.com,AI # 666
+HOST-SUFFIX,zijieapi.com,AI # 666
+HOST-SUFFIX,mon.zijieapi.com,AI # 666
+HOST-SUFFIX,mcs.zijieapi.com,AI # 666
+HOST-SUFFIX,byteoversea.com,AI # 666
+HOST-SUFFIX,ibyteimg.com,AI # 666
+
+# >> Cursor & Coding Tools
 HOST-SUFFIX,cursor.sh,AI
+HOST-SUFFIX,cursor.com,AI # 666
+HOST-SUFFIX,cursor-cdn.com,AI # 666
+HOST-SUFFIX,cursorapi.com,AI # 666
+HOST-SUFFIX,codeium.com,AI # 666
+HOST-SUFFIX,tabnine.com,AI # 666
+HOST-SUFFIX,sourcegraph.com,AI # 666
+HOST-SUFFIX,codepilot.ai,AI # 666
+HOST-SUFFIX,devin.ai,AI # 666
 
 # >> Dify AI
 HOST-SUFFIX,dify.ai,AI
-
-# >> Trae AI
-HOST,trae-api-sg.mchost.guru,AI
-HOST-SUFFIX,trae.ai, AI
 
 # >> OpenRouter
 HOST-SUFFIX,openrouter.ai,AI
@@ -170,8 +216,17 @@ HOST,api.hyperbolic.xyz,AI
 HOST-SUFFIX,jina.ai,AI
 HOST-SUFFIX,voyageai.com,AI
 HOST-SUFFIX,tokenflux.ai,AI
+HOST-SUFFIX,elevenlabs.io,AI # 666
+HOST-SUFFIX,elevenlabs.com,AI # 666
+HOST-SUFFIX,leonardo.ai,AI # 666
+HOST-SUFFIX,character.ai,AI # 666
+HOST-SUFFIX,replicate.com,AI # 666
+HOST-SUFFIX,runwayml.com,AI # 666
+HOST-SUFFIX,synthesia.io,AI # 666
+HOST-SUFFIX,cerebras.ai,AI # 666
 
 # >> AI Infrastructure
 HOST,gateway.ai.cloudflare.com,AI
 HOST,cp4.cloudflare.com,AI
 HOST,cp2.cloudflare.com,AI
+HOST-SUFFIX,aiproxy.io,AI # 666
