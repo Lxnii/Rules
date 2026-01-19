@@ -1,0 +1,22 @@
+# > General
+HOST, app.adjust.com, direct
+HOST, app.appsflyer.com, direct
+HOST, bdtj.tagtic.cn, direct
+
+# > Alibaba
+HOST, log.mmstat.com, direct
+HOST, sycm.mmstat.com, direct
+
+# > Bilibili
+HOST-SUFFIX, bilivideo.cn, direct
+HOST-SUFFIX, bilivideo.com, direct
+
+# > Tencent
+HOST, fairplay.l.qq.com, direct
+HOST, livew.l.qq.com, direct
+HOST, vd.l.qq.com, direct
+HOST, vi.l.qq.com, direct
+
+# > Umeng
+HOST, msg.umeng.com, direct
+HOST, msg.umengcloud.com, direct
